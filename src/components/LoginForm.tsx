@@ -1,4 +1,4 @@
-import * as S from "../pages/Login.styles";
+import * as S from "../pages/loginPage.styles";
 import { LoginFormInputType } from "../types/loginFormTypes";
 import { INPUT_LABELS, PLACEHOLDERS } from "../constants";
 

@@ -108,7 +108,6 @@ export const FindPasswordButton = styled.button`
   color: ${({ theme }) => theme.colors.primary};
   background: none;
   border: none;
-  margin-left: 1rem;
 
   &:hover {
     color: ${({ theme }) => theme.colors.primaryDark};

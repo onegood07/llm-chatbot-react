@@ -1,13 +1,11 @@
-import * as S from "../pages/Login.styles";
-import {
-  LOGIN_WELCOME_MESSAGE,
-  LOGIN_HELPER_TEXT,
-  FORGOT_PASSWORD_TEXT,
-} from "../constants/message";
+import * as S from "./loginPage.styles";
 import {
   LOGIN_BUTTON_TEXT,
   FIND_PASSWORD_BUTTON_TEXT,
-} from "../constants/buttonText";
+  LOGIN_WELCOME_MESSAGE,
+  LOGIN_HELPER_TEXT,
+  FORGOT_PASSWORD_TEXT,
+} from "../constants";
 import LoginForm from "../components/LoginForm";
 
 const LoginPage = () => {
