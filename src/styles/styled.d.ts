@@ -10,6 +10,8 @@ declare module "styled-components" {
       iconGray: string;
       strokeGray: string;
       white: string;
+      black: string;
+      primaryDark: string;
     };
   }
 }

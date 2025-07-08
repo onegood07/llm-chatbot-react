@@ -6,5 +6,8 @@ export const theme = {
     captionText: "#838383",
     iconGray: "#828282",
     strokeGray: "#DADADA",
+    white: "#FFFFFF",
+    black: "#000000",
+    primaryDark: "#1C66D2",
   },
 };
