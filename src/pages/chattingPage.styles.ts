@@ -1,10 +1,5 @@
 import styled from "styled-components";
-import {
-  FaBook,
-  FaGraduationCap,
-  FaLaptop,
-  FaPaperPlane,
-} from "react-icons/fa";
+import { FaPaperPlane } from "react-icons/fa";
 
 export const ChattingPageContainer = styled.div`
   background-color: ${({ theme }) => theme.colors.chattingPageBg};
@@ -59,25 +54,9 @@ export const ColumnWrapper = styled.div`
 
 export const RowWrapper = styled.div`
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  gap: 1rem;
+  gap: 2.2rem;
   margin-top: 2rem;
-`;
-
-export const BookIcon = styled(FaBook as React.ComponentType)`
-  color: ${({ theme }) => theme.colors.iconGray};
-  font-size: 1.2rem;
-`;
-
-export const graduationCapIcon = styled(FaGraduationCap as React.ComponentType)`
-  color: ${({ theme }) => theme.colors.iconGray};
-  font-size: 1.4rem;
-`;
-
-export const laptopIcon = styled(FaLaptop as React.ComponentType)`
-  color: ${({ theme }) => theme.colors.iconGray};
-  font-size: 1.4rem;
 `;
 
 export const paperPlaneIcon = styled(FaPaperPlane as React.ComponentType)`

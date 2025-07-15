@@ -9,5 +9,7 @@ export const theme = {
     white: "#FFFFFF",
     black: "#000000",
     primaryDark: "#1C66D2",
+    keywordButtonBg: "#EFEFEF",
+    keywordButtonHoverBg: "#DBDBDB",
   },
 };

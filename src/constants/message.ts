@@ -2,7 +2,7 @@ export const LOGIN_WELCOME_MESSAGE = "어서오세요";
 export const LOGIN_HELPER_TEXT =
   "세종대학교 학사정보시스템과 동일하게 입력하세요!";
 export const CHATTING_HELPER_TEXT =
-  "세종대 수강편람에 기반해 궁금한 걸 알려드릴게요!";
+  "궁금한 내용에 대한 키워드를 골라 대화를 시작해보세요!";
 
 export const FORGOT_PASSWORD_TEXT = "비밀번호를 잊으셨나요?";
 
