@@ -14,6 +14,7 @@ declare module "styled-components" {
       primaryDark: string;
       keywordButtonBg: string;
       keywordButtonHoverBg: string;
+      chatBg: string;
     };
   }
 }
